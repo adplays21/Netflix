@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  body {
+    background-color: #111;
+    color: #fff;
+  }
+
+  .navbar {
+    background-color: #000;
+    padding: 10px 20px;
+    
+  }
+
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    
+  }
+  .navbar a:hover {
+    color: red;
+  }
+  
+
+  .hero {
+    background-image: url("https://images.unsplash.com/photo-1627873649417-c67f701f1949?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80");
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 16rem;
+
+  }
+
+  .hero h1 {
+    font-size:4rem;
+    margin-bottom: 20px;
+    text-size-adjust:0px ;
+    letter-spacing: 1px;
+    white-space: nowrap;
+  }
+
+  .cta {
+    background-color: red;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    display: block;
+    margin: 1rem auto;
+    width: 10rem;
+    height: 3rem;
+    white-space: nowrap;
+  }
+  .cta:hover {
+    cursor: pointer;
+    translate: 0px -2px;
+    transition: 0.5s;
+  }
+
+  .section {
+    padding: 20px;
+  }
+
+  .section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+
+  .section .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+
+  .section .grid .item {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+  }
+
+  .section .grid .item img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+
+  .section .grid .item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  .section .grid .item p {
+    color: #999;
+  }
+
+  .footer {
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .footer p {
+    color: #fff;
+  }
+ 
+</style>
